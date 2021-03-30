@@ -1,0 +1,16 @@
+algoritmo mediaAB;
+// Síntese
+//  Objetivo:  Calcular a média de duas notas;
+//  Entrada : Nota A e B
+//  Saída   : Média da nota A e B
+
+
+principal
+real nota1, nota2, resul;
+escreval("Escreva a nota A: ");
+leia(nota1);
+escreval("Escreva a nota B: ");
+leia(nota2);
+resul = (nota1*3.5+nota2*7.5)/11;
+escreval("A sua média é: ", resul:1:1);
+fimPrincipal

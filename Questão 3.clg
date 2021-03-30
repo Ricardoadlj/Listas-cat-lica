@@ -1,0 +1,21 @@
+algoritmo media_aritmetica;
+// Síntese
+//  Objetivo: Cálcular a média aritmética de 3 números informados pelo usuário.
+//  Entrada : 3 números.
+//  Saída   : O resultado da média aritmética entre 3 números informados pelo usuário.
+
+
+principal
+real num1, num2, num3, soma; // Declaração das variáveis que serão utilizadas no código
+escreva (" Digite o primeiro número: "); // Método de interação com o usuário.
+leia(num1); // Armazenamento da variável.
+escreva (" Digite o segundo número: "); // Método de interação com o usuário.
+leia(num2);// Armazenamento da variável.
+escreva (" Digite o terceiro número: ");// Método de interação com o usuário.
+leia(num3);// Armazenamento da variável.
+soma = (num1 + num2 + num3) / 3; // Calculo das váriaveis declaradas, mostrando a média aritmética.
+escreva ("O Resultado da média aritmética de 3 números é: ", soma); // Imprimi na tela o resultado da média aritmética dos numéros escolhidos pelo usuário.
+
+
+
+fimPrincipal

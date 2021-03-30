@@ -1,0 +1,16 @@
+algoritmo horario;
+// Síntese
+//  Objetivo: Mostrar os minutos e segundos de um horário.
+//  Entrada : 1 Número.
+//  Saída   : Minutos e segundos do número escolhido.
+
+
+principal
+inteiro num,minutos,segundos;//Declaração de uma variável do tipo inteiro.
+escreva("Digite a quantidade de horas : ");//Método de entrada através do teclado.
+leia(num);//Armazenamento do número informado pelo usuário.
+minutos = num * 60;//Cálculo do número para transformar em minutos.
+segundos = num * 3600;//Cálculo do número para transformar em segundos.
+escreval ("As horas em segundos é: ",segundos); //Método de saída para mostrar o resultado do cálculo em minutos.
+escreval ("As horas em minutos é: ",minutos);//Método de saída para mostrar o resultado do cálculo em segundos.
+fimPrincipal

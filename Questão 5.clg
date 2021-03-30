@@ -1,0 +1,18 @@
+algoritmo Informar_qt_rolos;
+// Síntese
+//  Objetivo: Informar para o usuário a quantidade de rolos e fios avulsos que ele deverá usar.  
+//  Entrada : Quantidade de metros de fios.
+//  Saída   : Quantidade de rolos e fios avulsos que o usuário deseja saber.
+
+
+principal
+inteiro qtd_de_fio, resto, rolos; // Declaração das variáveis do tipo inteiro.
+escreva ("Escreva a quantidade total: "); // Método de entrada para quantidade necessária
+leia(qtd_de_fio); // Armazenamento da variável fornecida pelo usuário.
+rolos = qtd_de_fio \ 50; // Cálculo da quantidade de rolos.
+resto = qtd_de_fio mod 50; // Cálculo da quantidade de fios avulsos.
+escreval("Quantidade de rolos: " , rolos); // Método de saída para mostrar o resultado em quantidade de rolos.
+escreval("Quantidade de fios avulsos: " , resto); // Método de saída para mostrar o resultado em quantidade de fios avulsos.
+
+
+fimPrincipal

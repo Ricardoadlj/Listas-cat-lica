@@ -1,0 +1,20 @@
+algoritmo quociente_resto;
+// Síntese
+//  Objetivo: Descobrir o quociente e o resto da divisão entre dois números indicados pelo usuário.  
+//  Entrada : 2 números.
+//  Saída   : Quociente e resto da divisão entre dois números fornecidos pelo usuário.
+
+
+principal
+inteiro num1, num2, quociente, resto; // Declaração das váriaveis do tipo inteiro.
+escreva ("Digite o primeiro número: "); // Pede para o usuário informar o primeiro número.
+leia(num1); // Armazenamento da váriavel de número 1.
+escreva ("Digite o segundo número: "); // Pede para o usuário informar o segundo número.
+leia(num2); // Armazenamento da váriavel de número 2.
+quociente = num1 / num2; // Cálculo do quociente dos números informados.
+resto = num1 % num2; // Cálculo do resto dos números informados.
+escreva ("O quociente da divisão é: ", quociente); // Imprimi o quociente resultado do cálculo para o usuário.
+escreva (" O resto da divisão é: " , resto); // Imprimi o resto resultado do cálculo para o usuário.
+
+
+fimPrincipal

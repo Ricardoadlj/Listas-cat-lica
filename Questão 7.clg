@@ -1,0 +1,36 @@
+algoritmo dadosTrabalho;
+// Síntese
+//  Objetivo:  Coletar os dados e calcular o salario por horas trabalhadas.
+//  Entrada : nome, sexo, matricula, horas trabalhadas, valor recebido por hora.
+//  Saída   : Toda a entrada e o calculo do salario.
+
+
+principal
+caracter sexo;
+texto nome, matric;
+inteiro horasT;
+real salario, resul;
+escreval("Digite seu nome: ");
+leia(nome);
+escreva("Digite seu sexo: "); 
+escreval("    M para masculino e F para feminino");
+leiaCaracter(sexo);
+escreval("Digite sua matrícula: ");
+leia(matric);
+escreval("Digite as horas trabalhadas: ");
+leia(horasT);
+escreval("Digite o valor recebido por hora: ");
+leia(salario);
+resul = (horasT * salario);
+
+limpaTela();
+
+escreval("Nome: ",nome);
+escreval("Sexo: ",sexo);
+escreval("Matrícula: ",matric);
+escreval("Horas trabalhadas: ",horasT);
+escreval("Valor recebido por hora: ",salario);
+escreval("Seu salário é de: ",resul);
+
+
+fimPrincipal

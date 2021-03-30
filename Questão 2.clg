@@ -1,0 +1,16 @@
+algoritmo calculo_raio;
+// Síntese
+//  Objetivo: Calcular a área de um círculo.
+//  Entrada : 1 número real informado pelo usuário.
+//  Saída   : A área do círculo cujo número foi informado pelo usuário.
+
+
+principal
+
+real calculo,raio; // Declaração das variáveis do tipo real.
+escreva("Escreva o raio: "); // Método de interação com o usuário para o mesmo informar o número.
+leia(raio); // Método de armazenamento da variável.
+calculo = 3.14 * (raio * raio); // Calculo da área do círculo.
+escreval("A área de um circulo e: ", calculo); // Método de interação com o usuário para informa-lo a área do círculo.
+
+fimPrincipal
